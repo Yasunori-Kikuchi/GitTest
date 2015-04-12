@@ -1,1 +1,9 @@
 SJISのLinux環境からコメントしてみる
+
+1. デフォルト
+ターミナルの文字コードはSJIS
+→文字化け
+
+2. 下記の設定を追加
+git config --global i18n.commitEncoding sjis
+ターミナルの文字コードはSJIS
