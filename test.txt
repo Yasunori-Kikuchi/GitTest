@@ -57,3 +57,25 @@ fileencoding"s" だけでよい
 
 タグのコメントはどうだろうか
 TAG_EDITMSGも同様の設定をやってあげればOK
+
+
+DIFFでファイル全体を見たい
+http://dev.classmethod.jp/server-side/os/diff_display_wholefile/
+
+
+git logを文字化けさせない
+nkfをパイプすればよい？何か一部しか表示されない＞斉藤さんに宿題
+
+git diffを文字化けさせない
+git diff | nkf -sでよい
+
+vimdiffでのdiffは文字化けする？
+文字化けしない
+でも書き込めない
+gitとは関係なく、vimdiff自体の使い方をもっと調べる必要あり
+
+githubのdiffが文字化け
+ファイルの中身は見れるけど、DIFFが文字化けしてしまう
+これも斉藤さんに宿題
+
+
