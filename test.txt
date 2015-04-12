@@ -8,6 +8,7 @@ SJISのLinux環境からコメントしてみる
 git config --global i18n.commitEncoding sjis
 ターミナルの文字コードはSJIS
 →ターミナル上のlog、GitHubともに文字化け
+WindowsのGit Bashでは文字化けしない
 
 3. ターミナルの文字コードをUTF-8にしてコメント
 うまく入力できない（vi上で一部の文字が化ける）
