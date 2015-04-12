@@ -64,7 +64,15 @@ http://dev.classmethod.jp/server-side/os/diff_display_wholefile/
 
 
 git logを文字化けさせない
-nkfをパイプすればよい？何か一部しか表示されない＞斉藤さんに宿題
+git config --global core.pager "nkf -s | more"
+これでいける
+
+git config --global core.pager "nkf -s | less"
+これだと文字化けする
+
+git config --global core.pager "nkf -s | LESSCHARSET=sjis less"
+これだと invalid charset name というエラーが出てlogを見れない
+less のバージョンを上げるとかしないとダメ
 
 git diffを文字化けさせない
 git diff | nkf -sでよい
