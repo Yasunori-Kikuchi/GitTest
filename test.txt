@@ -52,3 +52,8 @@ http://qiita.com/__Attsun__/items/0c5b537c177238a9c283
 set fileencodingはいらないのか・・・？
 いらない！
 fileencoding"s" だけでよい
+
+これでコミットログはOK
+
+タグのコメントはどうだろうか
+TAG_EDITMSGも同様の設定をやってあげればOK
