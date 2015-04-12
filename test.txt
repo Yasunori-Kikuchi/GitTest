@@ -42,3 +42,8 @@ vi でset fileencoding=utf8って打つとうまくいく
 gitのエディタをvimにした
 git config --global core.editor vim
 
+vimrcでfileencodings=utf8も指定したら・・・
+きたー！！！！
+
+コミットした時に出る妙なエラーは無視していいけど、直すなら
+http://qiita.com/__Attsun__/items/0c5b537c177238a9c283
