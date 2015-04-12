@@ -36,3 +36,5 @@ UTF-8環境でテスト
 vimrcの設定で、ファイル名がCOMMIT_EDITMSGの場合はset fileencoding=utf8
 ターミナルはSJISのままでコメントしてみる
 だめぽ？
+
+vi でset fileencoding=utf8って打つとうまくいく
