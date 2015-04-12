@@ -8,3 +8,8 @@ SJISのLinux環境からコメントしてみる
 git config --global i18n.commitEncoding sjis
 ターミナルの文字コードはSJIS
 →ターミナル上のlog、GitHubともに文字化け
+
+3. ターミナルの文字コードをUTF-8にしてコメント
+うまく入力できない（vi上で一部の文字が化ける）
+→ターミナル上のlogは文字化け、
+GitHubは一部が文字化け
