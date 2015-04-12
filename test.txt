@@ -47,3 +47,6 @@ vimrcでfileencodings=utf8も指定したら・・・
 
 コミットした時に出る妙なエラーは無視していいけど、直すなら
 http://qiita.com/__Attsun__/items/0c5b537c177238a9c283
+
+
+set fileencodingはいらないのか・・・？
