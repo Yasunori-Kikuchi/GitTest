@@ -75,7 +75,7 @@ git config --global core.pager "nkf -s | LESSCHARSET=sjis less"
 less のバージョンを上げるとかしないとダメ
 
 git diffを文字化けさせない
-git diff | nkf -sでよい
+logの文字化け対策やったら一緒に直った
 
 vimdiffでのdiffは文字化けする？
 文字化けしない
