@@ -38,3 +38,7 @@ vimrcの設定で、ファイル名がCOMMIT_EDITMSGの場合はset fileencoding=utf8
 だめぽ？
 
 vi でset fileencoding=utf8って打つとうまくいく
+
+gitのエディタをvimにした
+git config --global core.editor vim
+
