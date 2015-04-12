@@ -23,9 +23,15 @@ viで入力しづらい
 5. viの文字コードをUTF-8にしてみる
 :set fenc=utf8
 viでコメントを保存できない
+→fileencodingってちゃんと打たないとだめ
+
 
 UTF-8環境でテスト
 普通にうまくいく
 
 
 .git/COMMIT_EDITMSG が怪しいよ
+
+6.
+vimrcの設定で、ファイル名がCOMMIT_EDITMSGの場合はset fileencoding=utf8
+ターミナルはSJISのままでコメントしてみる
